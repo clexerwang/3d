@@ -1,0 +1,58 @@
+body{
+    margin:0
+}
+#add{
+    position:fixed;
+    color:white;
+    background-color: orange;
+    width:100px;
+    height:20px;
+    text-align: center;
+    top:20px;
+    left:20px;
+}
+#trans{
+    position:fixed;
+    color:white;
+    background-color: orange;
+    width:100px;
+    text-align: center;
+    top:60px;
+    left:20px;
+}
+
+
+#label{
+    display:flex;
+    flex-direction:  column;;
+    height:150px;
+    width:150px;
+    font-size:14px;
+
+}
+#arrow_outer{
+    display:flex;
+    justify-content:center;
+    z-index:10;
+}
+#arrow{
+    width:0;
+    height:0;
+    border:solid 20px;
+    border-color: rgba(113,113,113,.6) transparent transparent transparent;
+
+}
+#body{
+    height:150px;
+    width:150px;
+    background-color: rgba(113,113,113,.6);
+    color:white;
+    overflow: hidden;
+    border:1px solid rgba(113,113,113,.6);
+    border-radius:10px;
+    margin-bottom:-1px;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

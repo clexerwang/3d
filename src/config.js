@@ -1,0 +1,1 @@
+export const address = 'ws://10.28.231.108:12345/RendererCtrl';
